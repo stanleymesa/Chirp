@@ -13,6 +13,9 @@ kotlin {
             dependencies {
                 implementation(libs.kotlin.stdlib)
 
+                implementation(compose.components.resources)
+                implementation(compose.components.uiToolingPreview)
+
                 implementation(projects.feature.auth.domain)
                 implementation(projects.core.domain)
                 implementation(projects.core.designsystem)
